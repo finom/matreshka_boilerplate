@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="app">
+	    <img src="img/matreshka.svg" class="matreshka-logo">
+		<form class="todos-sandbox">
+			<h2>Todos</h2>
+			<ul class="todos"></ul>
+			<input type="text" class="new-todo"> <button type="submit">Add</button>
+		</form>
+		<div class="cat-sandbox">
+			<h2>A cat</h2>
+			<button class="reload">Get another cat</button><br>
+			<img class="cat">
+		</div>
+	</div>
+
+
+	<!-- Don't remove lines below! -->
+	<!-- build:js js/app.js -->
+	<script src="src/lib/system.js"></script>
+	<script src="node_modules/babel-core/browser.js"></script>
+    <script src="node_modules/babel-core/browser-polyfill.js"></script>
+	<script src="src/config.js"></script>
+	<script>
+		System.import('app/app.js');
+	</script>
+	<!-- /build -->
+</body>
+</html>
