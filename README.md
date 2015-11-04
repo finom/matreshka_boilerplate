@@ -1,5 +1,8 @@
 # Matreshka.js ECMAScript.next boilerplate
 
+[![Dependency Status](https://img.shields.io/david/matreshkajs/matreshka_boilerplate.svg)](https://david-dm.org/matreshkajs/matreshka_boilerplate)
+[![devDependency Status](https://img.shields.io/david/dev/matreshkajs/matreshka_boilerplate.svg)](https://david-dm.org/matreshkajs/matreshka_boilerplate#info=devDependencies)
+
 This repo contains everything you need to start using Matreshka.js and ECMAScript 2016 today. In case if you don't want to use Matreshka.js, just don't import it (and remove files if you'd like). The boilerplate is created for everybody who wants to meet the new generation of JavaScript, not only for Matreshka.js fans.
 
 ## What are we going to use?
