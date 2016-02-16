@@ -1,3 +1,5 @@
+This project is no longer maintained. Webpack bollerplate will be made soon instead.
+
 # Matreshka.js ECMAScript.next boilerplate
 
 [![Dependency Status](https://img.shields.io/david/matreshkajs/matreshka_boilerplate.svg)](https://david-dm.org/matreshkajs/matreshka_boilerplate)
